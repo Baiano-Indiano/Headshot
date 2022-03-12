@@ -74,7 +74,7 @@ function draw() {
 }
 
  function redBalloon() {
-   var red = createSprite(Math.round(random(20, 370)),50, 10, 10);
+   var red = createSprite(0,Math.round(random(20, 370)),50, 10, 10);
    red.addImage(red_balloonImage);
    red.velocityX = 3;
    red.lifetime = 150;
@@ -82,7 +82,7 @@ function draw() {
  }
 
 function blueBalloon() {
-  var blue = createSprite(Math.round(random(20, 370)), 10, 10);
+  var blue = createSprite(0,Math.round(random(20, 370)), 10, 10);
   blue.addImage(blue_balloonImage);
   blue.velocityX = 3;
   blue.lifetime = 150;
@@ -90,7 +90,7 @@ function blueBalloon() {
 }
 
 function greenBalloon() {
-  var green = createSprite(Math.round(random(20, 370)), 10, 10);
+  var green = createSprite(0,Math.round(random(20, 370)), 10, 10);
   green.addImage(green_balloonImage);
   green.velocityX = 3;
   green.lifetime = 150;
@@ -98,7 +98,7 @@ function greenBalloon() {
 }
 
 function pinkBalloon() {
-  var pink = createSprite(Math.round(random(20, 370)), 10, 10);
+  var pink = createSprite(0,Math.round(random(20, 370)), 10, 10);
   pink.addImage(pink_balloonImage);
   pink.velocityX = 3;
   pink.lifetime = 150;
